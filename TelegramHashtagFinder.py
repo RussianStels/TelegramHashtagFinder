@@ -26,7 +26,7 @@ except FileNotFoundError:
     if(fileNum):
         print("Scanning done. Scanned files: "+str(fileNum-1));
     else:
-        print("Files not found.")
+        print("Files not found")
             
 f = open('hashtags.txt', 'w', encoding='utf-8')
 
